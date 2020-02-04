@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Nick Braeckman Portfolio</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"></link>
+	</head>
+  <body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#top">NB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End Navigation-->
+    <!--Landing page-->
+    <section class="hero-unit d-flex" id="top">
+      <div class="container h-50">
+        <div class="row align-items-center h-100">
+          <div class="col-12 text-center">
+            <div class ="hero-unit-subheading ">
+              <h1 >Welcome,</h1>
+              <h3 >I'm Nick Braeckman</h3>
+              <button id="profile-button"class="btn btn-outline-light">View my profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-section content-section-centered"id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>My Portfolio</h2>
+            <p>All of my Projects</p>
+          </div>
+        </div>
+        <div class="row portfolio-cards">
+          <div class="col-sm-4">
+            <div class="portfolio-card">
+              <div class="portfolio-card-image" style="background-image: url('img/portfolio-placeholder.jpg')"></div>
+              <div class="portfolio-card-information">
+                <span class="portfolio-card-title">Piece 1</span>
+                <span class="portfolio-card-credits">Programming</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="portfolio-card">
+              <div class="portfolio-card-image" style="background-image: url('img/portfolio-placeholder.jpg')"></div>
+              <div class="portfolio-card-information">
+                <span class="portfolio-card-title">Piece 2</span>
+                <span class="portfolio-card-credits">Design </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="portfolio-card">
+              <div class="portfolio-card-image" style="background-image: url('img/portfolio-placeholder.jpg')"></div>
+              <div class="portfolio-card-information">
+                <span class="portfolio-card-title">Piece 3</span>
+                <span class="portfolio-card-credits">Branding</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-section" class=" content-section content-section-side-image dark-content">
+      <div class="content-section-side-image-container d-block d-sm-none" style="background-image: url('img/who-am-i-mobile.jpg');"></div>
+      <div class="content-section-side-image-content">
+       <div class="container">
+         <div class="row">
+           <div class="col-sm-9 offset-sm-1">
+             <h2 class="content-section-side-image-heading">
+               <img class="img-circle mb-2" src="img/ProfilePick.jpg" width="25%" height="25%" alt="Nick Braeckman">
+               <br>
+               My Profile
+             </h2>
+             <p>I'm a third-year student at KU Leuven, studying Electronics & ICT. The more I learn, the more I am passionate about computer programming and general engineering.</p>
+             <p>I love to work on projects that serve a purpose.</p>
+             <p>Outside school, I try to live a healthy lifestyle. The fitness is my second home</p>
+             <p>To view my full resume: <a href="#">Click Here</a></p>
+           </div>
+         </div>
+       </div>
+      </div>
+      <div class="content-section-side-image-container d-none d-sm-block" style="background-image: url('img/who-am-i-desktop.jpg');"></div>
+    </section>
+    <section class="content-section content-section-centered" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Contact</h2>
+            <p>Say hello or ask me a question.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-sm-3 col-sm-6">
+           <form class="contact-form">
+             <input class="contact-form-input" type="text" name="name" placeholder="Name" value="" required>
+             <input class="contact-form-input" type="email" name="email" placeholder="Email Adress" value="" required>
+             <input class="contact-form-input" type="text" name="phone_number" placeholder="Phone Number" value="">
+             <textarea class="contact-form-input" type="text" name="query" placeholder="Your Message" value=""></textarea>
+              <div class="contact-form-actions">
+                <input class="contact-form-checkbox-input" id="consent" type="checkbox" name="consent" value="1" required>
+                <label for="consent" class="contact-form-checkbox-label">I agree to submit the contact details I provided above</label>
+              </div>
+              <button class="btn btn-outline-dark btn-block" type="submit" >Send</button>
+           </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Landing Page-->
+    <!--Footer-->
+    <footer class="footer">
+      &copy; Nick Braeckman - 2020
+    </footer>
+    <!--End Footer-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    
+  </body>
+</html>

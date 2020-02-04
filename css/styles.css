@@ -1,0 +1,261 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+html, body {
+  font-family: "Roboto", sans-serif;
+  color: #0b3757;
+}
+
+h1 {
+  font-size: 74px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+h2 {
+  color: #0b3757;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+a {
+  color: #9acff6;
+}
+
+.dark-content {
+  color: #ffffff;
+}
+.dark-content h1, .dark-content h2, .dark-content h3, .dark-content h4, .dark-content h5, .dark-content h6, .dark-content p {
+  color: #ffffff;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.hero-unit {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../img/planet2.png");
+  background-size: cover;
+  background-position: center;
+}
+.hero-unit .hero-unit-subheading {
+  color: #9acff6;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.hero-unit .hero-unit-subheading h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+.hero-unit .hero-unit-subheading h3 {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-unit {
+    height: 100vh;
+    background-image: url(../img/planet2.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-unit .hero-unit-subheading {
+    color: #9acff6;
+    text-transform: uppercase;
+  }
+  .hero-unit .hero-unit-subheading h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+    padding-bottom: 0.5rem;
+  }
+  .hero-unit .hero-unit-subheading h3 {
+    font-size: 1rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+    padding-bottom: 0.8rem;
+  }
+  .hero-unit .hero-unit-subheading .btn {
+    font-size: medium;
+    letter-spacing: 0.1px;
+  }
+}
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding: 15px;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #9acff6;
+}
+
+.content-section {
+  padding: 50px;
+}
+.content-section.content-section-centered {
+  text-align: center;
+}
+.content-section.dark-content {
+  background: #06062b;
+}
+.content-section.content-section-side-image {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.content-section.content-section-side-image .content-section-side-image-content {
+  flex-grow: 1;
+  padding: 50px 0;
+}
+.content-section.content-section-side-image .content-section-side-image-container {
+  width: 250px;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .content-section.content-section-side-image {
+    flex-direction: column;
+  }
+  .content-section.content-section-side-image .content-section-side-image-container {
+    min-height: 80px;
+    width: 100%;
+  }
+  .content-section.content-section-side-image .content-section-side-image-heading {
+    text-align: center;
+  }
+}
+.portfolio-cards {
+  margin-top: 60px;
+}
+.portfolio-cards .portfolio-card {
+  background: white;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.portfolio-cards .portfolio-card .portfolio-card-image {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.portfolio-cards .portfolio-card .portfolio-card-information {
+  padding: 25px 5px;
+}
+.portfolio-cards .portfolio-card .portfolio-card-information .portfolio-cards-title {
+  display: block;
+  font-size: 20px;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+}
+.portfolio-cards .portfolio-card .portfolio-card-information .portfolio-card-credits {
+  display: block;
+  color: #a7a7a7;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+.contact-form .contact-form-input {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  padding: 18px 22px;
+  font-size: 18px;
+}
+.contact-form .contact-form-input::placeholder {
+  color: #9e9e9e;
+}
+.contact-form textarea.contact-form-input {
+  min-height: 160px;
+}
+.contact-form .contact-form-checkbox-input {
+  display: none;
+}
+.contact-form .contact-form-checkbox-input:checked + .contact-form-checkbox-label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+.contact-form .contact-form-checkbox-label {
+  position: relative;
+  color: #adabab;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  padding-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.contact-form .contact-form-checkbox-label:before {
+  position: absolute;
+  content: "";
+  left: 1px;
+  top: -2px;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+.contact-form .contact-form-checkbox-label:after {
+  position: absolute;
+  left: 11px;
+  top: 9px;
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  color: #0b3757;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.footer {
+  background: #EEF1F2;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding: 10px 0;
+}
