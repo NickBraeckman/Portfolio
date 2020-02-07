@@ -167,9 +167,11 @@ a {
   margin-bottom: 30px;
 }
 .portfolio-cards .portfolio-card .portfolio-card-image {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: 200px;
+  background-repeat: no-repeat;
+  background-color: #a7a7a7;
 }
 .portfolio-cards .portfolio-card .portfolio-card-information {
   padding: 25px 5px;

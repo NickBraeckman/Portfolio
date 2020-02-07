@@ -10,9 +10,11 @@
     margin-bottom: 30px;
 
     .portfolio-card-image {
-      background-size: cover;
+      background-size: contain;
       background-position: center;
       height: 200px;
+      background-repeat: no-repeat;
+      background-color: #a7a7a7;
     }
 
     .portfolio-card-information{
