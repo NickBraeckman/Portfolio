@@ -7,7 +7,7 @@ Static Website to showcase my profile and projects.
 
 ## Link
 
-[https://nickbraeckman.github.io/Portfolio/](https://github.com/dbader/)
+[https://nickbraeckman.github.io/Portfolio/](https://nickbraeckman.github.io/Portfolio/)
 
 ## Contact
 
