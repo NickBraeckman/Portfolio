@@ -11,4 +11,4 @@ Static Website to showcase my profile and projects.
 
 ## Contact
 
-Nick Braeckman – [@LinkedIn](https://www.linkedin.com/in/nick-braeckman-4a1ba7191) – nick.braeckman@gmail.com
+Nick Braeckman – [@LinkedIn](https://www.linkedin.com/in/nick-braeckman) – nick.braeckman@gmail.com
